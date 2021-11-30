@@ -3,6 +3,7 @@ dist/
 # npm
 node_modules
 package-lock.json
+yarn.lock
 
 # Outputs
 main.js
