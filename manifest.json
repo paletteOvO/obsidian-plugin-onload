@@ -1,7 +1,7 @@
 {
-  "id": "your-obsidian-plugin",
-  "name": "Obsidian Plugin Template",
-  "description": "A Simple Template for Plugins",
+  "id": "obsidian-plugin-onload",
+  "name": "Obsidian Plugin Onload",
+  "description": "A Simple Plugins to execute js on start",
   "isDesktopOnly": false,
   "js": "main.js"
 }
