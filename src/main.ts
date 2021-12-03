@@ -15,8 +15,8 @@ export default class MyPlugin extends Plugin {
       this.setting = (await this.loadData()) || {
          onload: "",
       };
-      Function(this.setting.onload).bind(window)();
       this.addSettingTab(new MyPluginSettingsTab(this.app, this));
+      setTimeout(Function(this.setting.onload).bind(window), 0);
    }
 
    onunload() {
